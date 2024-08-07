@@ -22,13 +22,13 @@ repository               : "github.com/wenlan81/wenlan81.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  name             : "Wenlan Pan"
+  pronouns         : "she/her"  
+  bio              : "Undergraduate Student"
+  location         : "US/CN"
+  employer         : "Johns Hopkins University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "wpan21@jh.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
