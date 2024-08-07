@@ -21,14 +21,14 @@ repository               : "github.com/wenlan81/wenlan81.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "photo_portfolio.jpg"
   name             : "Wenlan Pan"
   pronouns         : "she/her"  
   bio              : "Undergraduate Student"
-  location         : "US/CN"
+  location         : "US/CN" # 想插入一个国旗的logo
   employer         : "Johns Hopkins University"
   uri              : # URL
-  email            : "wpan21@jh.edu" 
+  email            : "wpan21@jh.edu" # 想链接不显示email而是直接显示邮箱地址
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
