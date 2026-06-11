@@ -1,0 +1,58 @@
+{
+  "record_type": "codex_retrievable_project_context",
+  "project": {
+    "name": "Wenlan Pan personal website",
+    "local_source_directory": "/Users/panwenlan/Documents/Personal Website",
+    "deployment_repository_directory": "/Users/panwenlan/Documents/Personal Website/github-pages-deploy-clean"
+  },
+  "github_pages": {
+    "account": "Wenlan81",
+    "repository": "Wenlan81/wenlan81.github.io",
+    "branch": "master",
+    "public_url": "https://wenlan81.github.io/",
+    "hosting_type": "GitHub Pages static site"
+  },
+  "deployment_files": [
+    "index.html",
+    "styles.css",
+    ".nojekyll",
+    "assets/CV_Wenlan_Pan.pdf",
+    "assets/photo_portfolio.jpg",
+    "assets/cornell-seal.svg",
+    "assets/posters/"
+  ],
+  "deployment_history": [
+    {
+      "date": "2026-06-10",
+      "summary": "Replaced the old Academic Pages / Jekyll template with the custom static personal website.",
+      "commit_message": "Deploy Wenlan Pan personal website",
+      "verification": {
+        "status": "published",
+        "http_status": 200,
+        "verified_url": "https://wenlan81.github.io/",
+        "verified_page_title": "Wenlan Pan | Research Portfolio"
+      }
+    }
+  ],
+  "known_issues_and_resolutions": [
+    {
+      "issue": "GitHub Desktop showed 'Unable to merge unrelated histories in this repository.'",
+      "cause": "The first local deployment folder was based on another GitHub Pages repository history.",
+      "resolution": "Created github-pages-deploy-clean by cloning Wenlan81/wenlan81.github.io directly, then copied the website files into that clean repository."
+    },
+    {
+      "issue": "GitHub Desktop warned that the commit would be misattributed.",
+      "cause": "The local Git email was still set to 90215880+Sma1lboy@users.noreply.github.com.",
+      "resolution": "Use Wenlan's GitHub account email, wpan21@jh.edu, for future commits in this repository."
+    }
+  ],
+  "future_update_workflow": [
+    "Edit the source website files in /Users/panwenlan/Documents/Personal Website.",
+    "Copy the publishable files into /Users/panwenlan/Documents/Personal Website/github-pages-deploy-clean.",
+    "In GitHub Desktop, select the wenlan81.github.io repository.",
+    "Commit the changes to master.",
+    "Push origin.",
+    "Wait 1-3 minutes, then verify https://wenlan81.github.io/."
+  ],
+  "retrieval_hint": "Future Codex sessions should read .codex/context/deployment.json in the Wenlan81/wenlan81.github.io repository when asked to retrieve deployment context for this website."
+}
