@@ -14,7 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:wght@500;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=20260615-gallery-fix" />
+    <link rel="stylesheet" href="styles.css?v=20260615-section-spacing" />
   </head>
   <body>
     <a class="skip-link" href="#research">Skip to research</a>
@@ -390,7 +390,7 @@
         }
 
         const headerHeight = document.querySelector(".site-header")?.getBoundingClientRect().height || 0;
-        const extraOffset = target.classList.contains("section-anchor") ? 56 : 0;
+        const extraOffset = target.classList.contains("section-anchor") ? 88 : 0;
         const targetTop = target.getBoundingClientRect().top + window.scrollY;
         window.scrollTo({
           top: Math.max(0, targetTop - headerHeight - extraOffset),

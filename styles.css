@@ -2390,7 +2390,7 @@ h1 {
 .research-path {
   padding-top: clamp(84px, 8vw, 116px);
   padding-bottom: clamp(84px, 8vw, 116px);
-  min-height: calc(100svh + 88px);
+  min-height: calc(100svh - 132px);
   background:
     linear-gradient(180deg, rgba(255, 253, 248, 0.86), rgba(245, 240, 232, 0.62)),
     var(--paper);
