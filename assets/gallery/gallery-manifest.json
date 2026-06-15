@@ -1,0 +1,174 @@
+{
+  "generatedAt": "2026-06-14T19:17:44.530Z",
+  "categories": {
+    "sky": [
+      {
+        "src": "assets/gallery/sky/sky-01.webp",
+        "title": "9cf32e594a510c7dad254de94c5f997d",
+        "bytes": 50620,
+        "contentType": "image/webp"
+      },
+      {
+        "src": "assets/gallery/sky/sky-02.webp",
+        "title": "IMG_1463",
+        "bytes": 156050,
+        "contentType": "image/webp"
+      },
+      {
+        "src": "assets/gallery/sky/sky-03.webp",
+        "title": "IMG_1591",
+        "bytes": 101164,
+        "contentType": "image/webp"
+      },
+      {
+        "src": "assets/gallery/sky/sky-04.webp",
+        "title": "IMG_1713",
+        "bytes": 46830,
+        "contentType": "image/webp"
+      },
+      {
+        "src": "assets/gallery/sky/sky-05.webp",
+        "title": "IMG_1745",
+        "bytes": 252340,
+        "contentType": "image/webp"
+      },
+      {
+        "src": "assets/gallery/sky/sky-06.webp",
+        "title": "IMG_1828",
+        "bytes": 403142,
+        "contentType": "image/webp"
+      },
+      {
+        "src": "assets/gallery/sky/sky-07.webp",
+        "title": "IMG_1917",
+        "bytes": 100008,
+        "contentType": "image/webp"
+      },
+      {
+        "src": "assets/gallery/sky/sky-08.webp",
+        "title": "IMG_2368",
+        "bytes": 176276,
+        "contentType": "image/webp"
+      },
+      {
+        "src": "assets/gallery/sky/sky-09.webp",
+        "title": "IMG_2407",
+        "bytes": 301868,
+        "contentType": "image/webp"
+      },
+      {
+        "src": "assets/gallery/sky/sky-10.webp",
+        "title": "IMG_2582",
+        "bytes": 667738,
+        "contentType": "image/webp"
+      },
+      {
+        "src": "assets/gallery/sky/sky-11.webp",
+        "title": "IMG_2593",
+        "bytes": 161306,
+        "contentType": "image/webp"
+      }
+    ],
+    "nature": [
+      {
+        "src": "assets/gallery/nature/nature-01.webp",
+        "title": "IMG_7257",
+        "bytes": 900980,
+        "contentType": "image/webp"
+      },
+      {
+        "src": "assets/gallery/nature/nature-02.webp",
+        "title": "IMG_8934",
+        "bytes": 999840,
+        "contentType": "image/webp"
+      },
+      {
+        "src": "assets/gallery/nature/nature-03.webp",
+        "title": "IMG_4113",
+        "bytes": 1118418,
+        "contentType": "image/webp"
+      },
+      {
+        "src": "assets/gallery/nature/nature-04.webp",
+        "title": "IMG_4147",
+        "bytes": 803060,
+        "contentType": "image/webp"
+      },
+      {
+        "src": "assets/gallery/nature/nature-05.webp",
+        "title": "IMG_4180",
+        "bytes": 874748,
+        "contentType": "image/webp"
+      },
+      {
+        "src": "assets/gallery/nature/nature-06.webp",
+        "title": "IMG_4193",
+        "bytes": 975726,
+        "contentType": "image/webp"
+      },
+      {
+        "src": "assets/gallery/nature/nature-07.webp",
+        "title": "IMG_3246",
+        "bytes": 392004,
+        "contentType": "image/webp"
+      }
+    ],
+    "architecture": [
+      {
+        "src": "assets/gallery/architecture/architecture-01.webp",
+        "title": "3c519e2200a9db0a1f7ea62ec5585c5f",
+        "bytes": 289578,
+        "contentType": "image/webp"
+      },
+      {
+        "src": "assets/gallery/architecture/architecture-02.webp",
+        "title": "DSCF3768",
+        "bytes": 586734,
+        "contentType": "image/webp"
+      },
+      {
+        "src": "assets/gallery/architecture/architecture-03.webp",
+        "title": "DSCF3782",
+        "bytes": 321820,
+        "contentType": "image/webp"
+      },
+      {
+        "src": "assets/gallery/architecture/architecture-04.webp",
+        "title": "DSCF4970",
+        "bytes": 617588,
+        "contentType": "image/webp"
+      },
+      {
+        "src": "assets/gallery/architecture/architecture-05.webp",
+        "title": "IMG_1694",
+        "bytes": 137150,
+        "contentType": "image/webp"
+      },
+      {
+        "src": "assets/gallery/architecture/architecture-06.webp",
+        "title": "IMG_6354",
+        "bytes": 317906,
+        "contentType": "image/webp"
+      },
+      {
+        "src": "assets/gallery/architecture/architecture-07.webp",
+        "title": "IMG_1918",
+        "bytes": 308026,
+        "contentType": "image/webp"
+      },
+      {
+        "src": "assets/gallery/architecture/architecture-08.webp",
+        "title": "IMG_6982",
+        "bytes": 133270,
+        "contentType": "image/webp"
+      },
+      {
+        "src": "assets/gallery/architecture/architecture-09.webp",
+        "title": "IMG_7383",
+        "bytes": 411594,
+        "contentType": "image/webp"
+      }
+    ]
+  },
+  "failures": []
+}
