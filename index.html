@@ -14,17 +14,17 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:wght@500;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=20260610-uiux-final" />
+    <link rel="stylesheet" href="styles.css?v=20260615-timeline-details" />
   </head>
   <body>
     <a class="skip-link" href="#research">Skip to research</a>
     <header class="site-header">
       <a class="wordmark" href="#top" aria-label="Wenlan Pan home">Wenlan Pan</a>
       <nav class="site-nav" aria-label="Main navigation">
-        <a href="#research">Research</a>
         <a href="#publications">Publications</a>
+        <a href="#research">Research</a>
         <a href="assets/CV_Wenlan_Pan.pdf">CV</a>
-        <a href="#notes">Notes</a>
+        <a href="#notes">Photography</a>
       </nav>
     </header>
 
@@ -93,7 +93,8 @@
         </figure>
       </section>
 
-      <section class="selected-work" id="publications" aria-labelledby="pub-title">
+      <section class="selected-work" aria-labelledby="pub-title">
+        <span class="section-anchor" id="publications" aria-hidden="true"></span>
         <div class="section-heading compact">
           <h2 id="pub-title">Publications & Presentations</h2>
         </div>
@@ -103,11 +104,10 @@
             <span>Manuscript</span>
           </div>
           <div class="output-body">
-            <h3>Across Virtual and Real Worlds: Character Attachment and Boundary Permeability in Otome Game Relationships</h3>
+            <h3>Across Virtual and Real Worlds: Character Attachment and Virtual Intimacy in Otome Games</h3>
             <p class="output-summary">
-              Manuscript in preparation from an OSF-preregistered study on
-              players’ attachment to otome game characters and the boundary
-              between virtual and real relational life.
+              Manuscript in preparation from an OSF-preregistered study on character attachment and
+              virtual intimacy in otome games.
             </p>
             <div class="output-links" aria-label="Manuscript resources">
               <a class="poster-link" href="https://osf.io/azp79/overview" target="_blank" rel="noreferrer">OSF preregistration</a>
@@ -167,10 +167,11 @@
               <span>Poster</span>
             </div>
             <div class="output-body">
-              <h3>Openness and Compersion: The Association Between Openness and Compersion in Consensually Nonmonogamous Romantic Relationships</h3>
+              <h3>The Association Between Openness and Compersion in Consensually Nonmonogamous Romantic Relationships</h3>
               <p class="output-summary">
                 Examines whether openness to experience is associated with
-                compersion in consensually nonmonogamous relationships.
+                compersion (joy in a partner’s other relationship) in
+                consensually nonmonogamous relationships.
               </p>
               <p class="citation">Pan, W., Bern, R., & Eastwick, P. (2024). <em>Openness and Compersion: The Association Between Openness and Compersion in Consensually Nonmonogamous Romantic Relationships</em>. Poster presented at the 9th ASPIRE Annual Research Symposium, University of California, Davis.</p>
               <a class="poster-link" href="assets/posters/openness-compersion-aspire.pdf" target="_blank" rel="noreferrer">View poster</a>
@@ -179,119 +180,242 @@
         </div>
       </section>
 
-      <section class="research-path" id="research" aria-labelledby="research-title">
+      <section class="research-path" aria-labelledby="research-title">
+        <span class="section-anchor" id="research" aria-hidden="true"></span>
         <div class="section-heading compact">
-          <h2 id="research-title">Research Path</h2>
+          <h2 id="research-title">Research Experience Timeline</h2>
         </div>
 
-        <div class="timeline" aria-label="Interactive research experience timeline">
-          <ul class="timeline-legend" aria-label="Timeline color legend">
-            <li>
-              <button class="timeline-legend-button" type="button" data-key="ral" data-tooltip="Click to view work at Relationship and Attraction Lab">
-                <span>Relationship and Attraction Lab</span>
-              </button>
-            </li>
-            <li>
-              <button class="timeline-legend-button" type="button" data-key="puf" data-tooltip="Click to view work as a PUF Scholar">
-                <span>Provost's Undergraduate Fellowship</span>
-              </button>
-            </li>
-            <li>
-              <button class="timeline-legend-button" type="button" data-key="dream" data-tooltip="Click to view work at DREAM Lab">
-                <span>DREAM Lab</span>
-              </button>
-            </li>
-            <li>
-              <button class="timeline-legend-button" type="button" data-key="sparc" data-tooltip="Click to view work at SPARC Lab">
-                <span>SPARC Lab</span>
-              </button>
-            </li>
-            <li>
-              <button class="timeline-legend-button" type="button" data-key="cornell" data-tooltip="Click to view work at Person and Context Laboratory">
-                <span>Person and Context Laboratory</span>
-              </button>
-            </li>
-          </ul>
+        <div class="timeline" aria-label="Interactive research experience timeline" aria-describedby="research-interaction-hint">
+          <div class="timeline-overview">
+            <p class="timeline-hint" id="research-interaction-hint">Click a lab to view experience details.</p>
+            <ul class="timeline-legend" aria-label="Timeline color legend">
+              <li>
+                <button class="timeline-legend-button" type="button" data-key="ral" data-tooltip="Click to view work at Relationship and Attraction Lab">
+                  <span>Relationship and Attraction Lab</span>
+                </button>
+              </li>
+              <li>
+                <button class="timeline-legend-button" type="button" data-key="puf" data-tooltip="Click to view work as a PUF Scholar">
+                  <span>Provost's Undergraduate Fellowship</span>
+                </button>
+              </li>
+              <li>
+                <button class="timeline-legend-button" type="button" data-key="dream" data-tooltip="Click to view work at DREAM Lab">
+                  <span>DREAM Lab</span>
+                </button>
+              </li>
+              <li>
+                <button class="timeline-legend-button" type="button" data-key="sparc" data-tooltip="Click to view work at SPARC Lab">
+                  <span>SPARC Lab</span>
+                </button>
+              </li>
+              <li>
+                <button class="timeline-legend-button" type="button" data-key="cornell" data-tooltip="Click to view work at Person and Context Laboratory">
+                  <span>Person and Context Laboratory</span>
+                </button>
+              </li>
+            </ul>
 
-          <div class="timeline-board">
-            <div class="timeline-axis" aria-hidden="true"></div>
-            <span class="timeline-year" data-year="2022">2022</span>
-            <span class="timeline-year" data-year="2023">2023</span>
-            <span class="timeline-year" data-year="2024">2024</span>
-            <span class="timeline-year" data-year="2025">2025</span>
-            <span class="timeline-year" data-year="2026">2026</span>
+            <div class="timeline-board">
+              <div class="timeline-axis" aria-hidden="true"></div>
+              <span class="timeline-year" data-year="2022">2022</span>
+              <span class="timeline-year" data-year="2023">2023</span>
+              <span class="timeline-year" data-year="2024">2024</span>
+              <span class="timeline-year" data-year="2025">2025</span>
+              <span class="timeline-year" data-year="2026">2026</span>
 
-            <button class="timeline-segment" type="button" data-key="ral" data-tooltip="Click to view work at Relationship and Attraction Lab" aria-label="Relationship and Attraction Lab, 2022 to 2024">
-              <span class="timeline-duration" aria-hidden="true"></span>
-            </button>
-            <button class="timeline-segment" type="button" data-key="puf" data-tooltip="Click to view work as a PUF Scholar" aria-label="Provost's Undergraduate Fellowship, 2023 to 2025">
-              <span class="timeline-duration" aria-hidden="true"></span>
-            </button>
-            <button class="timeline-segment" type="button" data-key="dream" data-tooltip="Click to view work at DREAM Lab" aria-label="DREAM Lab, 2024 to 2025">
-              <span class="timeline-duration" aria-hidden="true"></span>
-            </button>
-            <button class="timeline-segment" type="button" data-key="sparc" data-tooltip="Click to view work at SPARC Lab" aria-label="SPARC Lab, 2025 to 2026">
-              <span class="timeline-duration" aria-hidden="true"></span>
-            </button>
-            <button class="timeline-segment" type="button" data-key="cornell" data-tooltip="Click to view work at Person and Context Laboratory" aria-label="Person and Context Laboratory, 2026 to present">
-              <span class="timeline-duration" aria-hidden="true"></span>
-            </button>
+              <button class="timeline-segment" type="button" data-key="ral" data-tooltip="Click to view work at Relationship and Attraction Lab" aria-label="Relationship and Attraction Lab, 2022 to 2024">
+                <span class="timeline-duration" aria-hidden="true"></span>
+              </button>
+              <button class="timeline-segment" type="button" data-key="puf" data-tooltip="Click to view work as a PUF Scholar" aria-label="Provost's Undergraduate Fellowship, 2023 to 2025">
+                <span class="timeline-duration" aria-hidden="true"></span>
+              </button>
+              <button class="timeline-segment" type="button" data-key="dream" data-tooltip="Click to view work at DREAM Lab" aria-label="DREAM Lab, 2024 to 2025">
+                <span class="timeline-duration" aria-hidden="true"></span>
+              </button>
+              <button class="timeline-segment" type="button" data-key="sparc" data-tooltip="Click to view work at SPARC Lab" aria-label="SPARC Lab, 2025 to 2026">
+                <span class="timeline-duration" aria-hidden="true"></span>
+              </button>
+              <button class="timeline-segment" type="button" data-key="cornell" data-tooltip="Click to view work at Person and Context Laboratory" aria-label="Person and Context Laboratory, 2026 to present">
+                <span class="timeline-duration" aria-hidden="true"></span>
+              </button>
+            </div>
           </div>
 
-          <aside class="timeline-detail is-empty" aria-live="polite">
-            <div>
-              <p class="detail-eyebrow" id="timeline-detail-school">Research timeline</p>
-              <h3 id="timeline-detail-title">Click an experience to view details.</h3>
-              <p class="timeline-detail-role" id="timeline-detail-role"></p>
-              <p class="timeline-detail-supervisor" id="timeline-detail-supervisor"></p>
-              <div class="timeline-operations" id="timeline-detail-operations-section" hidden>
-                <p class="project-section-label" id="timeline-detail-operations-label">Lab Operations</p>
-                <ul class="timeline-project-list" id="timeline-detail-operations" aria-labelledby="timeline-detail-operations-label"></ul>
+          <div class="timeline-connector" aria-hidden="true"></div>
+
+          <aside class="timeline-detail" aria-live="polite" aria-atomic="true">
+            <div class="timeline-detail-shell">
+              <div class="timeline-detail-heading-row">
+                <div class="timeline-pager" aria-label="Research experience navigation">
+                  <button class="timeline-page-button" type="button" data-timeline-direction="previous" aria-label="Previous research experience">
+                    <span aria-hidden="true">←</span>
+                  </button>
+                  <button class="timeline-page-button" type="button" data-timeline-direction="next" aria-label="Next research experience">
+                    <span aria-hidden="true">→</span>
+                  </button>
+                </div>
+                <div class="timeline-detail-heading-copy">
+                  <p class="detail-eyebrow" id="timeline-detail-school">University of California, Davis · Nov 2022–Jun 2024</p>
+                  <h3 id="timeline-detail-title">Relationship and Attraction Lab</h3>
+                  <p class="timeline-detail-role" id="timeline-detail-role"></p>
+                  <p class="timeline-detail-supervisor" id="timeline-detail-supervisor"></p>
+                </div>
               </div>
-              <p class="project-section-label" id="timeline-detail-project-label">Projects</p>
-              <ul class="timeline-project-list" id="timeline-detail-projects" aria-labelledby="timeline-detail-project-label"></ul>
-              <ul class="tag-list" id="timeline-detail-tags" aria-label="Methods and outputs"></ul>
+              <div class="timeline-detail-body">
+                <div class="timeline-operations" id="timeline-detail-operations-section" hidden>
+                  <p class="project-section-label" id="timeline-detail-operations-label">Lab Operations</p>
+                  <ul class="timeline-project-list" id="timeline-detail-operations" aria-labelledby="timeline-detail-operations-label"></ul>
+                </div>
+                <p class="project-section-label" id="timeline-detail-project-label">Projects</p>
+                <ul class="timeline-project-list" id="timeline-detail-projects" aria-labelledby="timeline-detail-project-label"></ul>
+                <ul class="tag-list" id="timeline-detail-tags" aria-label="Methods and outputs"></ul>
+              </div>
             </div>
           </aside>
         </div>
       </section>
 
-      <section class="notes-preview" id="notes" aria-labelledby="notes-title">
-        <p class="section-kicker">Notes & Life</p>
-        <h2 id="notes-title">Occasional essays, photographs, and small observations.</h2>
-        <p>
-          A quieter space for writing and photography, kept secondary to the
-          research profile but present enough to make the site feel lived-in.
-        </p>
-      </section>
-
-      <section class="life-strip" aria-label="Personal notes preview">
-        <div class="life-strip-copy">
-          <p class="section-kicker">Beyond Research</p>
-          <p>Photography, travel, games, and small observations shape how I notice people and context.</p>
+      <section class="notes-preview gallery-style-lab" id="notes" aria-labelledby="notes-title">
+        <div class="display-lab-heading">
+          <h2 id="notes-title">Photo Gallery</h2>
+          <p>
+            I enjoy taking photos of my ordinary days - the skies, trees, animals, buildings, everything that makes a day worth keeping.
+            Feel free to wander through this gallery and get to know the life I live outside of research!
+          </p>
         </div>
-        <div class="life-strip-grid">
-          <article class="life-note sky">
-            <span>01</span>
-            <h2>Photography</h2>
-          </article>
-          <article class="life-note travel">
-            <span>02</span>
-            <h2>Travel</h2>
-          </article>
-          <article class="life-note nature">
-            <span>03</span>
-            <h2>Play</h2>
-          </article>
+
+        <div class="flip-gallery" data-flip-gallery>
+          <div class="flip-album-grid" aria-label="Photo categories">
+            <article class="flip-album" data-category="sky">
+              <button class="flip-album-trigger" type="button" aria-expanded="false" aria-controls="photo-full-gallery">
+                <span class="photo-stack" aria-hidden="true">
+                  <span class="stack-photo is-front"></span>
+                  <span class="stack-photo is-next"></span>
+                  <span class="stack-photo is-back"></span>
+                  <span class="stack-photo is-far"></span>
+                </span>
+                <span class="flip-album-meta">
+                  <span>Sky</span>
+                  <span>22 photos</span>
+                </span>
+                <span class="flip-hover-hint">Click to view more photos</span>
+              </button>
+              <div class="stack-controls" aria-label="Sky preview controls">
+                <button class="stack-nav" type="button" data-direction="-1" aria-label="Previous Sky preview">&lsaquo;</button>
+                <button class="stack-nav" type="button" data-direction="1" aria-label="Next Sky preview">&rsaquo;</button>
+              </div>
+            </article>
+
+            <article class="flip-album" data-category="nature">
+              <button class="flip-album-trigger" type="button" aria-expanded="false" aria-controls="photo-full-gallery">
+                <span class="photo-stack" aria-hidden="true">
+                  <span class="stack-photo is-front"></span>
+                  <span class="stack-photo is-next"></span>
+                  <span class="stack-photo is-back"></span>
+                  <span class="stack-photo is-far"></span>
+                </span>
+                <span class="flip-album-meta">
+                  <span>Nature</span>
+                  <span>18 photos</span>
+                </span>
+                <span class="flip-hover-hint">Click to view more photos</span>
+              </button>
+              <div class="stack-controls" aria-label="Nature preview controls">
+                <button class="stack-nav" type="button" data-direction="-1" aria-label="Previous Nature preview">&lsaquo;</button>
+                <button class="stack-nav" type="button" data-direction="1" aria-label="Next Nature preview">&rsaquo;</button>
+              </div>
+            </article>
+
+            <article class="flip-album" data-category="architecture">
+              <button class="flip-album-trigger" type="button" aria-expanded="false" aria-controls="photo-full-gallery">
+                <span class="photo-stack" aria-hidden="true">
+                  <span class="stack-photo is-front"></span>
+                  <span class="stack-photo is-next"></span>
+                  <span class="stack-photo is-back"></span>
+                  <span class="stack-photo is-far"></span>
+                </span>
+                <span class="flip-album-meta">
+                  <span>Architecture</span>
+                  <span>15 photos</span>
+                </span>
+                <span class="flip-hover-hint">Click to view more photos</span>
+              </button>
+              <div class="stack-controls" aria-label="Architecture preview controls">
+                <button class="stack-nav" type="button" data-direction="-1" aria-label="Previous Architecture preview">&lsaquo;</button>
+                <button class="stack-nav" type="button" data-direction="1" aria-label="Next Architecture preview">&rsaquo;</button>
+              </div>
+            </article>
+          </div>
+
+          <section class="photo-full-gallery" id="photo-full-gallery" aria-live="polite" hidden>
+            <div class="photo-full-heading">
+              <div>
+                <p>Viewing</p>
+                <h3 id="photo-full-title">Sky</h3>
+              </div>
+              <button class="photo-close" type="button">Close</button>
+            </div>
+            <div class="photo-wall-collection" id="photo-wall-grid" aria-label="Selected category photo grid"></div>
+          </section>
         </div>
       </section>
     </main>
 
     <footer class="site-footer" id="cv">
       <p>© 2026 Wenlan Pan</p>
-      <a href="mailto:wpan21@jh.edu">wpan21@jh.edu</a>
+      <a href="mailto:panwenlan111@gmail.com">panwenlan111@gmail.com</a>
     </footer>
     <script>
+      const anchorLinks = Array.from(document.querySelectorAll(".site-nav a[href^='#'], .wordmark[href^='#'], .skip-link[href^='#']"));
+
+      function getAnchorTarget(hash) {
+        if (!hash || hash === "#") return null;
+        if (hash === "#top") return document.querySelector("#top");
+        try {
+          return document.getElementById(decodeURIComponent(hash.slice(1)));
+        } catch {
+          return null;
+        }
+      }
+
+      function scrollToPageAnchor(hash, behavior = "smooth") {
+        const target = getAnchorTarget(hash);
+        if (!target) return false;
+
+        if (hash === "#top") {
+          window.scrollTo({ top: 0, behavior });
+          return true;
+        }
+
+        const headerHeight = document.querySelector(".site-header")?.getBoundingClientRect().height || 0;
+        const extraOffset = target.classList.contains("section-anchor") ? 56 : 0;
+        const targetTop = target.getBoundingClientRect().top + window.scrollY;
+        window.scrollTo({
+          top: Math.max(0, targetTop - headerHeight - extraOffset),
+          behavior
+        });
+        return true;
+      }
+
+      anchorLinks.forEach((link) => {
+        link.addEventListener("click", (event) => {
+          const hash = link.getAttribute("href");
+          if (!hash || !hash.startsWith("#")) return;
+          if (!scrollToPageAnchor(hash)) return;
+          event.preventDefault();
+          history.pushState(null, "", hash);
+        });
+      });
+
+      window.addEventListener("load", () => {
+        if (!window.location.hash) return;
+        window.requestAnimationFrame(() => {
+          scrollToPageAnchor(window.location.hash, "auto");
+        });
+      });
+
       const timelineExperiences = {
         cornell: {
           school: "Cornell University · Jun 2026–Present",
@@ -319,7 +443,7 @@
           projects: [
             {
               name: "Social Media Stream-of-Consciousness",
-              description: "Examines the psychological factors that shape how people experience and react to naturalistic social media feeds, including emotional valence, arousal, relatability, and sharing behavior.",
+              description: "Examines the psychological factors that shape how people experience and react to naturalistic social media feeds.",
               labelGroups: {
                 experience: ["Literature review", "Lab reports", "Interview transcription"],
                 skills: ["Qualitative coding", "Co-occurrence analysis", "Descriptive analysis"],
@@ -348,9 +472,9 @@
           operations: [
             {
               name: "Lab coordination and operations",
-              description: "Supports the daily operation of SPARC Lab studies and helps keep participant-facing research sessions, lab materials, equipment, schedules, and RA workflows running smoothly.",
+              description: "Supports the daily operation of SPARC Lab studies and helps keep participant sessions, lab materials, equipment, schedules, and RA workflows running smoothly.",
               labelGroups: {
-                experience: ["Lab schedule management", "Shared-room coordination", "Equipment maintenance", "Meeting notes", "External communication", "RA onboarding", "Workflow tracking"],
+                experience: ["Lab schedule management", "Shared-room coordination", "Equipment maintenance", "Meeting notes", "RA onboarding"],
                 skills: [],
                 tools: ["SONA", "Google Calendar"]
               }
@@ -367,9 +491,9 @@
             {
               name: "Virtual Intimacy and Attachment in Dating Simulation Games",
               advisorNote: "Co-advisor: Dr. Jeffrey Bowen",
-              description: "Investigates how attachment styles shape emotional bonds with dating simulation game characters and how clearly players distinguish virtual relationships from real relational life. Preliminary findings suggest attachment anxiety is associated with greater boundary permeability, while attachment avoidance is associated with clearer virtual-real separation.",
+              description: "Investigates how attachment styles shape emotional bonds with dating simulation game characters and how clearly players distinguish virtual relationships from real relational life.",
               labelGroups: {
-                experience: ["Pilot interviews", "Survey design", "Recruitment ads", "IRB application", "OSF preregistration", "Poster presentation", "Manuscript writing"],
+                experience: ["Pilot interviews", "Survey design", "Recruitment ads", "Public social media recruitment", "IRB application", "OSF preregistration", "Poster presentation", "Manuscript writing"],
                 skills: ["Reliability testing", "Pearson correlations", "Linear regression", "Multiple regression", "Moderation analysis", "Data visualization"],
                 tools: ["Qualtrics", "R", "OSF", "Canva", "PowerPoint"]
               }
@@ -380,15 +504,15 @@
         puf: {
           school: "University of California, Davis · Nov 2023–Apr 2025",
           title: "Provost's Undergraduate Fellowship",
-          role: "PUF Scholar · Independent Researcher",
+          role: "Independent Researcher",
           supervisor: "Supervisor: Dr. Jonah Cox",
           projects: [
             {
               name: "Personality, Language Ability, and Stereotypes",
-              description: "Examines how second-language ability and personality traits relate to Chinese students' impressions of native English speakers. Findings indicated that agreeableness was associated with more positive stereotypes and that English proficiency played an important role in this relationship.",
+              description: "Examines how second-language ability and personality traits relate to Chinese students' impressions of native English speakers.",
               labelGroups: {
                 experience: ["Research proposal writing", "Funding application", "IRB application", "Poster presentation"],
-                skills: ["Regression", "Interaction modeling"],
+                skills: ["Regression", "Interaction modeling", "Data visualization"],
                 tools: ["Qualtrics", "SONA", "SPSS", "Excel", "Canva", "PowerPoint"]
               }
             }
@@ -403,7 +527,7 @@
           projects: [
             {
               name: "Understanding Polyamorous Relationship Dynamics",
-              description: "Examines the association between openness to experience and compersion among people in consensually nonmonogamous romantic relationships. The study found a significant positive association between openness and compersion.",
+              description: "Examines the association between openness to experience and compersion among people in consensually nonmonogamous romantic relationships.",
               labelGroups: {
                 experience: ["Survey building", "Poster design", "Symposium presentation"],
                 skills: [],
@@ -415,29 +539,41 @@
         }
       };
 
-      const timelineDefault = {
-        school: "Research timeline",
-        title: "Click an experience to view details.",
-        role: "",
-        supervisor: "",
-        operations: [],
-        projects: []
-      };
-
+      const timelineExperienceOrder = ["ral", "puf", "dream", "sparc", "cornell"];
+      const timelineLongExperienceKeys = new Set(["sparc"]);
+      const timelineAutoplayDelay = 6500;
+      const timelineAutoplayResumeDelay = 120000;
+      const timelineSection = document.querySelector(".research-path");
       const timelineControls = Array.from(document.querySelectorAll(".timeline [data-key]"));
+      const timelinePagerButtons = Array.from(document.querySelectorAll("[data-timeline-direction]"));
       const timelineDetail = document.querySelector(".timeline-detail");
+      const timelineDetailBody = document.querySelector(".timeline-detail-body");
+      const timelineConnector = document.querySelector(".timeline-connector");
       const timelineTooltip = document.createElement("div");
-      let selectedTimelineKey = null;
-      const timelineFields = {
-        school: document.querySelector("#timeline-detail-school"),
-        title: document.querySelector("#timeline-detail-title"),
-        role: document.querySelector("#timeline-detail-role"),
-        supervisor: document.querySelector("#timeline-detail-supervisor"),
-        operationsSection: document.querySelector("#timeline-detail-operations-section"),
-        operations: document.querySelector("#timeline-detail-operations"),
-        projects: document.querySelector("#timeline-detail-projects"),
-        tags: document.querySelector("#timeline-detail-tags")
-      };
+      const timelineReducedMotionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
+      let selectedTimelineKey = timelineExperienceOrder[0];
+      let timelineAutoplayTimer = null;
+      let timelineAutoplayResumeTimer = null;
+      let timelineAutoplaySuspended = false;
+      let timelineAutoplayViewportPaused = false;
+      let timelineStableHeightTimer = null;
+
+      function getTimelineFields(root = document) {
+        const projectLists = root.querySelectorAll(".timeline-project-list");
+
+        return {
+          school: root.querySelector("#timeline-detail-school") || root.querySelector(".detail-eyebrow"),
+          title: root.querySelector("#timeline-detail-title") || root.querySelector(".timeline-detail-heading-copy h3"),
+          role: root.querySelector("#timeline-detail-role") || root.querySelector(".timeline-detail-role"),
+          supervisor: root.querySelector("#timeline-detail-supervisor") || root.querySelector(".timeline-detail-supervisor"),
+          operationsSection: root.querySelector("#timeline-detail-operations-section") || root.querySelector(".timeline-operations"),
+          operations: root.querySelector("#timeline-detail-operations") || projectLists[0],
+          projects: root.querySelector("#timeline-detail-projects") || projectLists[1],
+          tags: root.querySelector("#timeline-detail-tags") || root.querySelector(".tag-list")
+        };
+      }
+
+      const timelineFields = getTimelineFields();
 
       function renderTimelineItems(items) {
         return items.map((project) => {
@@ -485,19 +621,195 @@
         });
       }
 
-      function renderTimelineDetail(item) {
-        timelineFields.school.textContent = item.school;
-        timelineFields.title.textContent = item.title;
-        timelineFields.role.textContent = item.role;
-        timelineFields.supervisor.textContent = item.supervisor;
-        timelineFields.operationsSection.hidden = !item.operations?.length;
-        timelineFields.operations.replaceChildren(...renderTimelineItems(item.operations || []));
-        timelineFields.projects.replaceChildren(...renderTimelineItems(item.projects));
+      function renderTimelineTags(tags, fields = timelineFields) {
+        if (!fields.tags) return;
+
+        fields.tags.replaceChildren(...(tags || []).map((tag) => {
+          const li = document.createElement("li");
+          li.textContent = tag;
+          return li;
+        }));
+      }
+
+      function renderTimelineDetail(item, fields = timelineFields) {
+        if (!fields.school || !fields.title || !fields.role || !fields.supervisor || !fields.operationsSection || !fields.operations || !fields.projects) return;
+
+        fields.school.textContent = item.school;
+        fields.title.textContent = item.title;
+        fields.role.textContent = item.role;
+        fields.supervisor.textContent = item.supervisor;
+        fields.operationsSection.hidden = !item.operations?.length;
+        fields.operations.replaceChildren(...renderTimelineItems(item.operations || []));
+        fields.projects.replaceChildren(...renderTimelineItems(item.projects));
+        renderTimelineTags(item.tags || [], fields);
+      }
+
+      function createTimelineMeasurementCard(item, width) {
+        const clone = timelineDetail.cloneNode(true);
+        clone.querySelectorAll("[id]").forEach((node) => node.removeAttribute("id"));
+        clone.setAttribute("aria-hidden", "true");
+        clone.removeAttribute("aria-live");
+        clone.removeAttribute("aria-atomic");
+        clone.style.position = "absolute";
+        clone.style.visibility = "hidden";
+        clone.style.pointerEvents = "none";
+        clone.style.left = "-99999px";
+        clone.style.top = "0";
+        clone.style.zIndex = "-1";
+        clone.style.width = `${width}px`;
+        clone.style.height = "auto";
+        clone.style.minHeight = "0";
+        renderTimelineDetail(item, getTimelineFields(clone));
+        return clone;
+      }
+
+      function measureTimelineDetailHeight(item, width) {
+        const clone = createTimelineMeasurementCard(item, width);
+        document.body.append(clone);
+        const height = Math.ceil(clone.getBoundingClientRect().height);
+        clone.remove();
+        return height;
+      }
+
+      function setTimelineDetailStableHeight() {
+        if (!timelineDetail || !timelineExperienceOrder.length) return;
+
+        const width = timelineDetail.getBoundingClientRect().width;
+        if (!width) return;
+
+        const measuredHeights = timelineExperienceOrder.map((key) => ({
+          key,
+          height: measureTimelineDetailHeight(timelineExperiences[key], width)
+        }));
+        const maxMeasuredHeight = Math.max(...measuredHeights.map((item) => item.height));
+        const referenceHeights = measuredHeights
+          .filter((item) => !timelineLongExperienceKeys.has(item.key))
+          .map((item) => item.height);
+        const referenceHeight = Math.max(...(referenceHeights.length ? referenceHeights : measuredHeights.map((item) => item.height)));
+        const isCompact = window.matchMedia("(max-width: 760px)").matches;
+        const viewportCap = Math.round(window.innerHeight * (isCompact ? 0.78 : 0.8));
+        const lowerBound = isCompact ? 560 : 620;
+        const upperBound = isCompact ? 700 : 730;
+        const heightCap = Math.min(Math.max(viewportCap, lowerBound), upperBound);
+        const stableHeight = Math.min(referenceHeight, heightCap);
+
+        timelineDetail.style.setProperty("--timeline-detail-stable-height", `${stableHeight}px`);
+        timelineDetail.classList.toggle("has-internal-scroll", maxMeasuredHeight > stableHeight + 1);
+        updateTimelineConnector();
+      }
+
+      function animateTimelineDetail() {
+        if (!timelineDetail || timelineReducedMotionQuery.matches || !timelineDetail.animate) return;
+
+        timelineDetail.animate(
+          [
+            { opacity: 0.7, transform: "translateY(8px)" },
+            { opacity: 1, transform: "translateY(0)" }
+          ],
+          {
+            duration: 240,
+            easing: "ease-out"
+          }
+        );
+      }
+
+      function pauseTimelineAutoplay() {
+        window.clearTimeout(timelineAutoplayTimer);
+        timelineAutoplayTimer = null;
+      }
+
+      function clearTimelineAutoplayResume() {
+        window.clearTimeout(timelineAutoplayResumeTimer);
+        timelineAutoplayResumeTimer = null;
+      }
+
+      function getTimelineIndex(key) {
+        const index = timelineExperienceOrder.indexOf(key);
+        return index >= 0 ? index : 0;
+      }
+
+      function queueTimelineAutoplay() {
+        pauseTimelineAutoplay();
+
+        if (timelineAutoplaySuspended || timelineAutoplayViewportPaused || timelineReducedMotionQuery.matches || timelineExperienceOrder.length < 2) return;
+
+        timelineAutoplayTimer = window.setTimeout(() => {
+          const currentIndex = getTimelineIndex(selectedTimelineKey);
+          const nextIndex = (currentIndex + 1) % timelineExperienceOrder.length;
+          selectedTimelineKey = timelineExperienceOrder[nextIndex];
+          setTimelineActive(selectedTimelineKey);
+          queueTimelineAutoplay();
+        }, timelineAutoplayDelay);
+      }
+
+      function resumeTimelineAutoplay() {
+        clearTimelineAutoplayResume();
+        timelineAutoplaySuspended = false;
+        queueTimelineAutoplay();
+      }
+
+      function suspendTimelineAutoplay() {
+        timelineAutoplaySuspended = true;
+        pauseTimelineAutoplay();
+        clearTimelineAutoplayResume();
+
+        if (timelineReducedMotionQuery.matches) return;
+
+        timelineAutoplayResumeTimer = window.setTimeout(resumeTimelineAutoplay, timelineAutoplayResumeDelay);
+      }
+
+      function extendTimelineAutoplaySuspension() {
+        if (timelineAutoplaySuspended) {
+          suspendTimelineAutoplay();
+        }
+      }
+
+      function handleTimelineMotionPreferenceChange() {
+        if (timelineReducedMotionQuery.matches) {
+          pauseTimelineAutoplay();
+          clearTimelineAutoplayResume();
+          return;
+        }
+
+        if (timelineAutoplaySuspended) {
+          suspendTimelineAutoplay();
+        } else {
+          queueTimelineAutoplay();
+        }
+      }
+
+      function updateTimelineConnector() {
+        if (!timelineConnector || !timelineDetail || !timelineSection) return;
+
+        const activeDuration = document.querySelector(".timeline-segment.is-active .timeline-duration");
+        const timelineRect = timelineConnector.parentElement.getBoundingClientRect();
+        const detailRect = timelineDetail.getBoundingClientRect();
+
+        if (!activeDuration || !timelineRect.width || window.matchMedia("(max-width: 760px)").matches) {
+          timelineConnector.style.setProperty("--timeline-connector-opacity", "0");
+          return;
+        }
+
+        const durationRect = activeDuration.getBoundingClientRect();
+        const startX = durationRect.right - 7;
+        const endX = detailRect.left;
+        const connectorWidth = Math.max(0, endX - startX);
+        const connectorTop = durationRect.top + (durationRect.height / 2) - timelineRect.top;
+        const connectorLeft = startX - timelineRect.left;
+
+        timelineConnector.style.setProperty("--timeline-connector-left", `${connectorLeft}px`);
+        timelineConnector.style.setProperty("--timeline-connector-top", `${connectorTop}px`);
+        timelineConnector.style.setProperty("--timeline-connector-width", `${connectorWidth}px`);
+        timelineConnector.style.setProperty("--timeline-connector-opacity", connectorWidth > 20 ? "1" : "0");
       }
 
       function setTimelineActive(key) {
         const item = timelineExperiences[key];
         if (!item || !timelineDetail) return;
+
+        if (timelineSection) {
+          timelineSection.dataset.activeKey = key;
+        }
 
         timelineControls.forEach((control) => {
           const isActive = control.dataset.key === key;
@@ -507,32 +819,26 @@
 
         timelineDetail.classList.remove("is-empty");
         renderTimelineDetail(item);
-        timelineFields.tags.replaceChildren(...item.tags.map((tag) => {
-          const li = document.createElement("li");
-          li.textContent = tag;
-          return li;
-        }));
-      }
-
-      function clearTimelineActive() {
-        if (!timelineDetail) return;
-
-        timelineControls.forEach((control) => {
-          control.classList.remove("is-active");
-          control.setAttribute("aria-pressed", "false");
-        });
-
-        timelineDetail.classList.add("is-empty");
-        renderTimelineDetail(timelineDefault);
-        timelineFields.tags.replaceChildren();
+        timelineDetail.scrollTop = 0;
+        if (timelineDetailBody) {
+          timelineDetailBody.scrollTop = 0;
+        }
+        updateTimelineConnector();
+        animateTimelineDetail();
       }
 
       function restoreTimelineState() {
-        if (selectedTimelineKey) {
-          setTimelineActive(selectedTimelineKey);
-        } else {
-          clearTimelineActive();
-        }
+        setTimelineActive(selectedTimelineKey);
+      }
+
+      function moveTimelineSelection(offset) {
+        const currentIndex = getTimelineIndex(selectedTimelineKey);
+        const nextIndex = (currentIndex + offset + timelineExperienceOrder.length) % timelineExperienceOrder.length;
+        selectedTimelineKey = timelineExperienceOrder[nextIndex];
+        clearTimelinePreview();
+        hideTimelineTooltip();
+        setTimelineActive(selectedTimelineKey);
+        suspendTimelineAutoplay();
       }
 
       function setTimelinePreview(key) {
@@ -593,8 +899,11 @@
           clearTimelinePreview();
           hideTimelineTooltip();
           setTimelineActive(selectedTimelineKey);
+          suspendTimelineAutoplay();
         });
         control.addEventListener("mouseenter", (event) => {
+          pauseTimelineAutoplay();
+          extendTimelineAutoplaySuspension();
           setTimelinePreview(control.dataset.key);
           showTimelineTooltip(control, event);
         });
@@ -602,18 +911,497 @@
         control.addEventListener("mouseleave", () => {
           clearTimelinePreview();
           hideTimelineTooltip();
+          queueTimelineAutoplay();
         });
         control.addEventListener("focus", () => {
+          pauseTimelineAutoplay();
+          extendTimelineAutoplaySuspension();
           showTimelineTooltip(control);
           setTimelineActive(control.dataset.key);
         });
         control.addEventListener("blur", () => {
           hideTimelineTooltip();
           restoreTimelineState();
+          queueTimelineAutoplay();
         });
       });
 
-      clearTimelineActive();
+      timelinePagerButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          moveTimelineSelection(button.dataset.timelineDirection === "previous" ? -1 : 1);
+        });
+        button.addEventListener("mouseenter", () => {
+          pauseTimelineAutoplay();
+          extendTimelineAutoplaySuspension();
+        });
+        button.addEventListener("mouseleave", queueTimelineAutoplay);
+        button.addEventListener("focus", () => {
+          pauseTimelineAutoplay();
+          extendTimelineAutoplaySuspension();
+        });
+        button.addEventListener("blur", queueTimelineAutoplay);
+      });
+
+      if (timelineReducedMotionQuery.addEventListener) {
+        timelineReducedMotionQuery.addEventListener("change", handleTimelineMotionPreferenceChange);
+      } else {
+        timelineReducedMotionQuery.addListener(handleTimelineMotionPreferenceChange);
+      }
+
+      window.addEventListener("resize", () => {
+        window.clearTimeout(timelineStableHeightTimer);
+        timelineStableHeightTimer = window.setTimeout(() => {
+          setTimelineDetailStableHeight();
+          updateTimelineConnector();
+        }, 160);
+      });
+
+      if (document.fonts?.ready) {
+        document.fonts.ready.then(() => {
+          setTimelineDetailStableHeight();
+          updateTimelineConnector();
+        });
+      }
+
+      if ("IntersectionObserver" in window && timelineSection) {
+        const timelineObserver = new IntersectionObserver(([entry]) => {
+          timelineAutoplayViewportPaused = entry.intersectionRatio < 0.18;
+
+          if (timelineAutoplayViewportPaused) {
+            pauseTimelineAutoplay();
+          } else {
+            queueTimelineAutoplay();
+          }
+        }, { threshold: [0, 0.18, 0.5] });
+
+        timelineObserver.observe(timelineSection);
+      }
+
+      setTimelineDetailStableHeight();
+      setTimelineActive(selectedTimelineKey);
+      queueTimelineAutoplay();
+
+      const flipGallery = document.querySelector("[data-flip-gallery]");
+
+      if (flipGallery) {
+        const albums = Array.from(flipGallery.querySelectorAll(".flip-album"));
+        const drawer = flipGallery.querySelector("#photo-full-gallery");
+        const drawerTitle = flipGallery.querySelector("#photo-full-title");
+        const drawerGrid = flipGallery.querySelector("#photo-wall-grid");
+        const closeButton = flipGallery.querySelector(".photo-close");
+        let openCategory = "";
+
+        const photoCategories = {
+          sky: {
+            title: "Sky",
+            images: [
+              "assets/gallery/sky/sky-09.webp",
+              "assets/gallery/sky/sky-01.webp",
+              "assets/gallery/sky/sky-03.webp",
+              "assets/gallery/sky/sky-07.webp",
+              "assets/gallery/sky/sky-19.jpg",
+              "assets/gallery/sky/sky-08.webp",
+              "assets/gallery/sky/sky-11.webp",
+              "assets/gallery/sky/sky-12.jpg",
+              "assets/gallery/sky/sky-13.jpg",
+              "assets/gallery/sky/sky-14.jpg",
+              "assets/gallery/sky/sky-15.jpg",
+              "assets/gallery/sky/sky-16.jpg",
+              "assets/gallery/sky/sky-21.jpg",
+              "assets/gallery/sky/sky-22.jpg",
+              "assets/gallery/sky/sky-02.webp",
+              "assets/gallery/sky/sky-04.webp",
+              "assets/gallery/sky/sky-10.webp",
+              "assets/gallery/sky/sky-05.webp",
+              "assets/gallery/sky/sky-06.webp",
+              "assets/gallery/sky/sky-17.jpg",
+              "assets/gallery/sky/sky-18.jpg",
+              "assets/gallery/sky/sky-20.jpg"
+            ]
+          },
+          nature: {
+            title: "Nature",
+            images: [
+              "assets/gallery/nature/nature-08.jpg",
+              "assets/gallery/nature/nature-05.webp",
+              "assets/gallery/nature/nature-04.webp",
+              "assets/gallery/nature/nature-02.webp",
+              "assets/gallery/nature/nature-18.webp",
+              "assets/gallery/nature/nature-09.jpg",
+              "assets/gallery/nature/nature-15.jpg",
+              "assets/gallery/nature/nature-16.jpg",
+              "assets/gallery/nature/nature-01.webp",
+              "assets/gallery/nature/nature-03.webp",
+              "assets/gallery/nature/nature-06.webp",
+              "assets/gallery/nature/nature-07.webp",
+              "assets/gallery/nature/nature-10.jpg",
+              "assets/gallery/nature/nature-11.jpg",
+              "assets/gallery/nature/nature-12.jpg",
+              "assets/gallery/nature/nature-13.jpg",
+              "assets/gallery/nature/nature-14.jpg",
+              "assets/gallery/nature/nature-17.jpg"
+            ]
+          },
+          architecture: {
+            title: "Architecture",
+            images: [
+              "assets/gallery/architecture/architecture-03.webp",
+              "assets/gallery/architecture/architecture-08.webp",
+              "assets/gallery/architecture/architecture-16.jpg",
+              "assets/gallery/architecture/architecture-17.jpg",
+              "assets/gallery/architecture/architecture-09.webp",
+              "assets/gallery/architecture/architecture-02.webp",
+              "assets/gallery/architecture/architecture-04.webp",
+              "assets/gallery/architecture/architecture-10.jpg",
+              "assets/gallery/architecture/architecture-11.jpg",
+              "assets/gallery/architecture/architecture-12.jpg",
+              "assets/gallery/architecture/architecture-13.jpg",
+              "assets/gallery/architecture/architecture-14.jpg",
+              "assets/gallery/architecture/architecture-15.jpg",
+              "assets/gallery/architecture/architecture-18.jpg",
+              "assets/gallery/architecture/architecture-19.jpg"
+            ]
+          }
+        };
+
+        const fallbackTones = {
+          sky: [
+            "linear-gradient(135deg, #dce7ec, #fffdf8)",
+            "linear-gradient(135deg, #f0dada, #a87067)",
+            "linear-gradient(135deg, #2f4656, #6e536f)",
+            "linear-gradient(135deg, #c9d4cf, #f2ebe1)"
+          ],
+          nature: [
+            "linear-gradient(135deg, #37483b, #d7c3a4)",
+            "linear-gradient(135deg, #2f4656, #dfe8df)",
+            "linear-gradient(135deg, #747d64, #eee1cf)",
+            "linear-gradient(135deg, #5f392f, #bca487)"
+          ],
+          architecture: [
+            "linear-gradient(135deg, #242120, #746f6a)",
+            "linear-gradient(135deg, #7f1518, #d8c2a5)",
+            "linear-gradient(135deg, #2f4656, #dde7ea)",
+            "linear-gradient(135deg, #703b37, #242120)"
+          ]
+        };
+
+        const stackPositions = ["is-front", "is-next", "is-back", "is-far"];
+        const albumAutoplayTimers = new WeakMap();
+        const manualSwitchTimers = new WeakMap();
+        const previewAutoplayDelay = 2100;
+        const reduceMotionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
+        const imageRatios = {
+          "assets/gallery/sky/sky-01.webp": 1.3339,
+          "assets/gallery/sky/sky-03.webp": 1.3333,
+          "assets/gallery/sky/sky-07.webp": 1.5004,
+          "assets/gallery/sky/sky-09.webp": 1.7778,
+          "assets/gallery/sky/sky-19.jpg": 1.7771,
+          "assets/gallery/sky/sky-08.webp": 1,
+          "assets/gallery/sky/sky-11.webp": 1,
+          "assets/gallery/sky/sky-12.jpg": 0.6664,
+          "assets/gallery/sky/sky-13.jpg": 0.7495,
+          "assets/gallery/sky/sky-14.jpg": 0.6664,
+          "assets/gallery/sky/sky-15.jpg": 0.75,
+          "assets/gallery/sky/sky-16.jpg": 0.75,
+          "assets/gallery/sky/sky-21.jpg": 0.75,
+          "assets/gallery/sky/sky-22.jpg": 0.75,
+          "assets/gallery/sky/sky-02.webp": 0.8496,
+          "assets/gallery/sky/sky-04.webp": 0.7501,
+          "assets/gallery/sky/sky-10.webp": 0.7501,
+          "assets/gallery/sky/sky-05.webp": 0.6668,
+          "assets/gallery/sky/sky-06.webp": 0.6664,
+          "assets/gallery/sky/sky-17.jpg": 0.75,
+          "assets/gallery/sky/sky-18.jpg": 0.7509,
+          "assets/gallery/sky/sky-20.jpg": 0.5627,
+          "assets/gallery/nature/nature-05.webp": 1.3342,
+          "assets/gallery/nature/nature-04.webp": 1.3342,
+          "assets/gallery/nature/nature-02.webp": 1.3342,
+          "assets/gallery/nature/nature-18.webp": 1.3333,
+          "assets/gallery/nature/nature-09.jpg": 1.3333,
+          "assets/gallery/nature/nature-15.jpg": 1.7771,
+          "assets/gallery/nature/nature-16.jpg": 1.5007,
+          "assets/gallery/nature/nature-01.webp": 0.75,
+          "assets/gallery/nature/nature-03.webp": 0.7496,
+          "assets/gallery/nature/nature-06.webp": 0.7496,
+          "assets/gallery/nature/nature-07.webp": 0.6668,
+          "assets/gallery/nature/nature-08.jpg": 0.75,
+          "assets/gallery/nature/nature-10.jpg": 0.75,
+          "assets/gallery/nature/nature-11.jpg": 0.75,
+          "assets/gallery/nature/nature-12.jpg": 0.5627,
+          "assets/gallery/nature/nature-13.jpg": 0.75,
+          "assets/gallery/nature/nature-14.jpg": 0.5627,
+          "assets/gallery/nature/nature-17.jpg": 0.75,
+          "assets/gallery/architecture/architecture-03.webp": 1.5004,
+          "assets/gallery/architecture/architecture-08.webp": 1.3331,
+          "assets/gallery/architecture/architecture-16.jpg": 1.7771,
+          "assets/gallery/architecture/architecture-17.jpg": 1.7771,
+          "assets/gallery/architecture/architecture-09.webp": 0.7493,
+          "assets/gallery/architecture/architecture-02.webp": 0.6667,
+          "assets/gallery/architecture/architecture-04.webp": 0.6667,
+          "assets/gallery/architecture/architecture-10.jpg": 0.75,
+          "assets/gallery/architecture/architecture-11.jpg": 0.75,
+          "assets/gallery/architecture/architecture-12.jpg": 0.75,
+          "assets/gallery/architecture/architecture-13.jpg": 0.75,
+          "assets/gallery/architecture/architecture-14.jpg": 0.75,
+          "assets/gallery/architecture/architecture-15.jpg": 0.5627,
+          "assets/gallery/architecture/architecture-18.jpg": 0.5627,
+          "assets/gallery/architecture/architecture-19.jpg": 0.7823
+        };
+        let stackResizeTimer;
+
+        function photoCountLabel(count) {
+          return `${count} photo${count === 1 ? "" : "s"}`;
+        }
+
+        function updateAlbumMeta(album, category) {
+          const meta = album.querySelector(".flip-album-meta");
+          const labels = meta ? meta.querySelectorAll("span") : [];
+          if (labels[0]) labels[0].textContent = category.title;
+          if (labels[1]) labels[1].textContent = photoCountLabel(category.images.length);
+        }
+
+        function fitStackPhotoToImage(album, image) {
+          if (!image.naturalWidth || !image.naturalHeight) return;
+
+          const stack = album.querySelector(".photo-stack");
+          const stackRect = stack.getBoundingClientRect();
+          if (!stackRect.width || !stackRect.height) return;
+
+          const ratio = image.naturalWidth / image.naturalHeight;
+          let width = stackRect.width;
+          let height = width / ratio;
+
+          if (height > stackRect.height) {
+            height = stackRect.height;
+            width = height * ratio;
+          }
+
+          album.style.setProperty("--stack-card-width", `${width}px`);
+          album.style.setProperty("--stack-card-height", `${height}px`);
+
+          const sideOffset = ((stackRect.width - width) / 2) + 16;
+          const verticalOffset = ((stackRect.height - height) / 2) + 16;
+          album.style.setProperty("--album-meta-left", `${sideOffset}px`);
+          album.style.setProperty("--album-meta-right", `${sideOffset}px`);
+          album.style.setProperty("--album-meta-bottom", `${verticalOffset}px`);
+          album.style.setProperty("--album-hint-top", `${verticalOffset}px`);
+        }
+
+        function syncStackPhotoSizes(album) {
+          const frontImage = album.querySelector(".stack-photo.is-front img");
+          if (frontImage) fitStackPhotoToImage(album, frontImage);
+        }
+
+        function renderStack(album) {
+          const categoryKey = album.dataset.category;
+          const category = photoCategories[categoryKey];
+          if (!category) return;
+
+          const activeIndex = Number(album.dataset.activeIndex || "0");
+          const stackImages = category.previewImages || category.images;
+          const photos = Array.from(album.querySelectorAll(".stack-photo"));
+          const tones = fallbackTones[categoryKey] || fallbackTones.sky;
+
+          updateAlbumMeta(album, category);
+
+          photos.forEach((photo, index) => {
+            const imageSrc = index < stackImages.length
+              ? stackImages[(activeIndex + index) % stackImages.length]
+              : "";
+            photo.classList.remove(...stackPositions, "is-empty");
+            photo.classList.add(stackPositions[index]);
+            photo.style.removeProperty("--stack-card-width");
+            photo.style.removeProperty("--stack-card-height");
+            photo.style.setProperty("--stack-bg", tones[index % tones.length]);
+            photo.replaceChildren();
+
+            if (imageSrc) {
+              const image = document.createElement("img");
+              image.src = imageSrc;
+              image.alt = "";
+              image.loading = index === 0 ? "eager" : "lazy";
+              image.decoding = "async";
+              photo.append(image);
+              photo.classList.add("has-photo");
+
+              if (index === 0) {
+                if (image.complete) {
+                  fitStackPhotoToImage(album, image);
+                } else {
+                  image.addEventListener("load", () => fitStackPhotoToImage(album, image), { once: true });
+                }
+              }
+            } else {
+              photo.classList.remove("has-photo");
+              photo.classList.add("is-empty");
+            }
+          });
+        }
+
+        function updateStack(album, direction) {
+          const category = photoCategories[album.dataset.category];
+          const stackImages = category ? category.previewImages || category.images : [];
+          if (!category || stackImages.length < 2) return;
+
+          const current = Number(album.dataset.activeIndex || "0");
+          const next = (current + direction + stackImages.length) % stackImages.length;
+          album.dataset.activeIndex = String(next);
+          renderStack(album);
+        }
+
+        function resetStack(album) {
+          album.dataset.activeIndex = "0";
+          renderStack(album);
+        }
+
+        function stopAlbumAutoplay(album, resetToCover = false) {
+          const timer = albumAutoplayTimers.get(album);
+          if (timer) {
+            window.clearInterval(timer);
+            albumAutoplayTimers.delete(album);
+          }
+
+          album.classList.remove("is-autoplaying");
+          if (resetToCover) resetStack(album);
+        }
+
+        function markManualSwitch(album) {
+          const existingTimer = manualSwitchTimers.get(album);
+          if (existingTimer) window.clearTimeout(existingTimer);
+
+          album.classList.add("is-manual-switching");
+          const timer = window.setTimeout(() => {
+            album.classList.remove("is-manual-switching");
+            manualSwitchTimers.delete(album);
+          }, 240);
+          manualSwitchTimers.set(album, timer);
+        }
+
+        function startAlbumAutoplay(album) {
+          const category = photoCategories[album.dataset.category];
+          const stackImages = category ? category.previewImages || category.images : [];
+          if (!category || stackImages.length < 2 || reduceMotionQuery.matches || albumAutoplayTimers.has(album)) return;
+
+          album.classList.add("is-autoplaying");
+          const timer = window.setInterval(() => {
+            updateStack(album, 1);
+          }, previewAutoplayDelay);
+          albumAutoplayTimers.set(album, timer);
+        }
+
+        function closeGallery() {
+          openCategory = "";
+          drawer.hidden = true;
+          drawerGrid.replaceChildren();
+          albums.forEach((album) => {
+            stopAlbumAutoplay(album);
+            album.classList.remove("is-selected");
+            album.querySelector(".flip-album-trigger").setAttribute("aria-expanded", "false");
+          });
+        }
+
+        function ratioForImage(imageSrc) {
+          return imageRatios[imageSrc] || 1;
+        }
+
+        function renderFullGallery(categoryKey) {
+          const category = photoCategories[categoryKey];
+          if (!category) return;
+
+          if (openCategory === categoryKey) {
+            closeGallery();
+            return;
+          }
+
+          openCategory = categoryKey;
+          drawer.hidden = false;
+          drawerTitle.textContent = category.title;
+          drawerGrid.replaceChildren();
+
+          albums.forEach((album) => {
+            stopAlbumAutoplay(album);
+            const isSelected = album.dataset.category === categoryKey;
+            album.classList.toggle("is-selected", isSelected);
+            album.querySelector(".flip-album-trigger").setAttribute("aria-expanded", String(isSelected));
+          });
+
+          const tiltPattern = [-1.4, 0.8, -0.5, 1.2, -0.9, 0.35, 1.6, -1.1];
+          const offsetPattern = [0, 12, 4, 18, 8, 24, 2, 14];
+
+          category.images.forEach((src, index) => {
+            const tileNumber = index + 1;
+            const ratio = ratioForImage(src);
+            const tile = document.createElement("span");
+            tile.className = "photo-wall-tile";
+            tile.dataset.index = String(tileNumber).padStart(2, "0");
+            tile.style.setProperty("--tile-ratio", ratio.toFixed(4));
+            tile.style.setProperty("--tile-tilt", `${tiltPattern[index % tiltPattern.length]}deg`);
+            tile.style.setProperty("--tile-offset", `${offsetPattern[index % offsetPattern.length]}px`);
+            tile.style.setProperty("--photo-tile-bg", fallbackTones[categoryKey][index % fallbackTones[categoryKey].length]);
+
+            const image = document.createElement("img");
+            image.src = src;
+            image.alt = `${category.title} photograph ${tileNumber}`;
+            image.loading = "lazy";
+            image.decoding = "async";
+            tile.append(image);
+
+            drawerGrid.append(tile);
+          });
+
+          drawer.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+
+        albums.forEach((album) => {
+          album.dataset.activeIndex = "0";
+          renderStack(album);
+
+          album.querySelector(".flip-album-trigger").addEventListener("click", () => {
+            stopAlbumAutoplay(album);
+            renderFullGallery(album.dataset.category);
+          });
+
+          album.addEventListener("mouseenter", () => {
+            startAlbumAutoplay(album);
+          });
+
+          album.addEventListener("focusin", () => {
+            startAlbumAutoplay(album);
+          });
+
+          album.addEventListener("mouseleave", () => {
+            stopAlbumAutoplay(album);
+            if (album.contains(document.activeElement) && document.activeElement.classList.contains("stack-nav")) {
+              document.activeElement.blur();
+            }
+          });
+
+          album.addEventListener("focusout", (event) => {
+            if (!album.matches(":hover") && !album.contains(event.relatedTarget)) {
+              stopAlbumAutoplay(album);
+            }
+          });
+
+          album.querySelectorAll(".stack-nav").forEach((control) => {
+            control.addEventListener("click", (event) => {
+              event.stopPropagation();
+              stopAlbumAutoplay(album, false);
+              markManualSwitch(album);
+              updateStack(album, Number(control.dataset.direction));
+              control.blur();
+            });
+          });
+        });
+
+        closeButton.addEventListener("click", closeGallery);
+
+        window.addEventListener("resize", () => {
+          window.clearTimeout(stackResizeTimer);
+          stackResizeTimer = window.setTimeout(() => {
+            albums.forEach(syncStackPhotoSizes);
+          }, 120);
+        });
+      }
     </script>
   </body>
 </html>
